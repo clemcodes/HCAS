@@ -4,7 +4,46 @@
   margin: 0;
 }
 
+html {
+  font-family: 'Fira Sans', sans-serif;
+}
+
 body {
-  background-color: #272727;
+  display: flex;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.hamburger {
+  background: transparent;
+  border: none;
+  width: 44px;
+  height: 44px;
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger:before, .hamburger:after, .hamburger__bar {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin: 6px 0;
+  background: #000;
+  transition: 0.4s;
+}
+
+.hamburger.active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.hamburger.active:after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.hamburger.active .hamburger__bar {
+  opacity: 0;
 }
 /*# sourceMappingURL=main.css.map */
