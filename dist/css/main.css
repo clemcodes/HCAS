@@ -9,14 +9,21 @@ html {
 }
 
 body {
-  display: flex;
+  padding: 16px;
 }
 
-.logo {
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+
+.header__top--logo {
   width: 10rem;
 }
 
-.hamburger {
+.header__top--menu {
   background: transparent;
   border: none;
   width: 44px;
@@ -25,7 +32,7 @@ body {
   cursor: pointer;
 }
 
-.hamburger:before, .hamburger:after, .hamburger__bar {
+.header__top--menu:before, .header__top--menu:after, .header__top--menu .bar {
   content: '';
   display: block;
   width: 100%;
@@ -35,15 +42,47 @@ body {
   transition: 0.4s;
 }
 
-.hamburger.active:before {
+.header__top--menu.active:before {
   transform: rotate(-45deg) translate(-8px, 6px);
 }
 
-.hamburger.active:after {
+.header__top--menu.active:after {
   transform: rotate(45deg) translate(-9px, -8px);
 }
 
-.hamburger.active .hamburger__bar {
+.header__top--menu.active .bar {
   opacity: 0;
+}
+
+.mobile-nav {
+  background: #fff;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100vh;
+  z-index: 98;
+  padding-top: 150px;
+  transition: 0.4s;
+}
+
+.mobile-nav.active {
+  left: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 12px;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  color: #222;
+}
+
+.mobile-nav a:hover {
+  color: #aaa;
 }
 /*# sourceMappingURL=main.css.map */
