@@ -16,11 +16,10 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  position: relative;
-  z-index: 99;
 
   &__logo {
     width: 10rem;
+    z-index: 97;
 
     @media (min-width:$mobile) {
       width: 70%;
@@ -35,6 +34,8 @@ body {
     height: 44px;
     display: block;
     cursor: pointer;
+    position: relative;
+    z-index: 99;
     
   
     &:before, &:after, .bar {
@@ -75,12 +76,13 @@ body {
   background:#fff;
   display: block;
   position: fixed;
-  top: -100%;
+  top: -200%;
   width: 100%;
   height: 100vh;
   z-index: 98;
-  padding-top: 150px;
+  padding-top: 100px;
   transition: 0.4s;
+  overflow:scroll;
 
   &.active {
     top: 0;
