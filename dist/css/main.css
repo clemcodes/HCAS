@@ -8,6 +8,10 @@ html {
   font-family: 'Fira Sans', sans-serif;
 }
 
+html {
+  font-family: "PT Sans", sans-serif;
+}
+
 body {
   padding: 16px;
 }
@@ -84,5 +88,31 @@ body {
 
 .mobile-nav a:hover {
   color: #aaa;
+}
+
+.notification {
+  width: 100%;
+  height: fit-content;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 3%;
+}
+
+.carousel {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel img {
+  max-width: 100%;
+  border-radius: 3%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=main.css.map */
