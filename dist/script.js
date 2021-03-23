@@ -1,4 +1,4 @@
-const menu_btn = document.querySelector('.header__top--menu');
+const menu_btn = document.querySelector('.header__menu');
 const navbar = document.querySelector('.mobile-nav');
 
 menu_btn.addEventListener('click', function () {
