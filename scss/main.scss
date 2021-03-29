@@ -152,7 +152,6 @@ main {
   @media (min-width:$mobile) {
     grid-column: 2 / 3;
     grid-row: 1 / 5;
-    z-index: -1;
     position: static;
     height: 100vh;
   }
@@ -240,6 +239,7 @@ main {
   @media (min-width:$mobile) {
     font-size: 32px;
     padding: 50px;
+    z-index: 200;
   }
 
 }

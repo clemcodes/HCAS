@@ -171,7 +171,6 @@ body {
   main {
     grid-column: 2 / 3;
     grid-row: 1 / 5;
-    z-index: -1;
     position: static;
     height: 100vh;
   }
@@ -272,6 +271,7 @@ body {
   .prev, .next {
     font-size: 32px;
     padding: 50px;
+    z-index: 200;
   }
 }
 
