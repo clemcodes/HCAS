@@ -96,6 +96,7 @@ body {
 
 .mobile-nav.active {
   top: 0;
+  margin-left: -18px;
 }
 
 .mobile-nav a {
