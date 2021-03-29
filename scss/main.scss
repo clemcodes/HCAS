@@ -249,29 +249,6 @@ main {
   border-radius: 3px 0 0 3px;
 }
 
-.dots {
-  text-align: center;
-  @media (min-width:$mobile) {
-    position: absolute;
-    left: 53%;
-    bottom: 10px;
-  }
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background 0.6s ease;
-
-  &.active, &:hover {
-    background: #717171;
-  }
-}
 
 .fade {
   animation-name: fade;
