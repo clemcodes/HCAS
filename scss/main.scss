@@ -6,8 +6,8 @@ body {
 
   @media (min-width:$mobile) {
     display: grid;
-    grid-template-columns: 15% 15% 70%;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 430px 1fr;
+    grid-template-rows: 150px auto 1fr auto;
     padding: 0;
     height: 100vh;
   }
@@ -22,8 +22,11 @@ body {
     z-index: 97;
 
     @media (min-width:$mobile) {
-      width: 70%;
-      margin:auto;
+      margin:20px auto;
+      width: 300px;
+      height: 100px;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
     }
   }
 
@@ -63,13 +66,6 @@ body {
         display: none;
     }
   }
-
-  @media (min-width:$mobile) {
-    width:100%;
-    padding-top: 2rem;
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-  }
 }
 
 .mobile-nav {
@@ -108,14 +104,16 @@ body {
   }
 
   @media (min-width:$mobile) {
-    padding-top: 5rem;
+    padding-top: 120px;
+    padding-bottom: 100px;
     position: static;
     background: transparent;
     left: 0;
     height: auto;
-    grid-column: 1 / 3;
-    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
     transition: none;
+    font-size: 24px;
   }
 }
 
@@ -136,9 +134,10 @@ body {
   }
   @media (min-width:$mobile) {
     width: 100%;
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     grid-row: 2 / 3;
     padding: 0 3rem;
+    font-size: 24px;
   }
 }
 
@@ -149,13 +148,12 @@ body {
   
 }
 
-.main {
-
+main {
   @media (min-width:$mobile) {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 5;
     z-index: -1;
-    position: fixed;
+    position: static;
     height: 100vh;
   }
 }
@@ -175,6 +173,10 @@ body {
       padding: 8px 12px;
       position: absolute;
       top: 0;
+
+      @media (min-width:$mobile) {
+        font-size: 24px;
+      }
     }
 
     &--image {
@@ -183,7 +185,7 @@ body {
 
       @media (min-width:$mobile) {
         border-radius: 0;
-        width: 130%;
+        width: 100%;
         height: 100%;
         object-fit: cover;
       }
@@ -197,6 +199,13 @@ body {
       bottom: 8px;
       width: 100%;
       text-align: center;
+
+      @media (min-width:$mobile) {
+        left: 10px;
+        text-align: left;
+        bottom: 20px;
+        font-size: large;
+      }
     }
 
     @media (min-width:$mobile) {
@@ -227,11 +236,26 @@ body {
   &:hover {
     background: rgba(0,0,0,0.8);
   }
+
+  @media (min-width:$mobile) {
+    font-size: 32px;
+    padding: 50px;
+  }
+
 }
 
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.dots {
+  text-align: center;
+  @media (min-width:$mobile) {
+    position: absolute;
+    left: 53%;
+    bottom: 10px;
+  }
 }
 
 .dot {
@@ -264,9 +288,11 @@ footer {
   justify-content: center;
   margin-top: 50px;
   color: hsl(220, 30%, 80%);
+
   @media (min-width:$mobile) {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     grid-row: 4 / 5;
     margin: 0;
+    z-index: 99;
   }
 }
