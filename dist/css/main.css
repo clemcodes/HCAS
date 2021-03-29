@@ -15,7 +15,7 @@ body {
 @media (min-width: 769px) {
   body {
     display: grid;
-    grid-template-columns: 430px 1fr;
+    grid-template-columns: 490px 1fr;
     grid-template-rows: 150px auto 1fr auto;
     padding: 0;
     height: 100vh;
@@ -92,6 +92,8 @@ body {
   padding-top: 100px;
   transition: 0.4s;
   overflow: scroll;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .mobile-nav.active {
@@ -103,9 +105,9 @@ body {
   display: block;
   width: 100%;
   max-width: 200px;
-  margin: 0 auto 12px;
+  margin: 0 auto 16px;
   text-align: center;
-  padding: 16px 16px;
+  padding: 14px 14px;
   text-decoration: none;
   color: #222;
 }
@@ -122,23 +124,27 @@ body {
 
 @media (min-width: 769px) {
   .mobile-nav {
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     position: static;
     background: transparent;
     left: 0;
     height: auto;
     grid-column: 1 / 2;
-    grid-row: 3 / 5;
+    grid-row: 3 / 4;
     transition: none;
-    font-size: 24px;
+    font-size: 20px;
   }
+}
+
+.fa-angle-right {
+  color: #b3b3b3;
 }
 
 .notification p {
   width: 100%;
   height: fit-content;
-  background: #000;
+  background: #111;
   color: #fff;
   padding: 20px;
   margin: 30px auto;
