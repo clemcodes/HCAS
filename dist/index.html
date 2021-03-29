@@ -34,13 +34,44 @@
   </nav>
 
   <main class="main">
-    <section class="main__carousel">
-      <div class="slides">
-        <div class="numbertext">1 / 3</div>
-        <img src="./images/1-livingroom.JPG" alt="living room">
+    <div class="carousel">
+      <div class="carousel__slides fade">
+        <div class="carousel__slides--number">1 / 5</div>
+        <img class="carousel__slides--image"src="./images/1-livingroom.JPG" alt="living room">
+        <div class="carousel__slides--caption">Living Room</div>
       </div>
-      <img src="./images/2-backbedroom.JPG" alt="back bedroom">
-    </section>
+      <div class="carousel__slides fade">
+        <div class="carousel__slides--number">2 / 5</div>
+        <img class="carousel__slides--image" src="./images/2-backbedroom.JPG" alt="back bedroom">
+        <div class="carousel__slides--caption">Back Bedroom</div>
+      </div>
+      <div class="carousel__slides fade">
+        <div class="carousel__slides--number">3 / 5</div>
+        <img class="carousel__slides--image" src="./images/3-frontbedroom.JPG" alt="front bedroom">
+        <div class="carousel__slides--caption">Front Bedroom</div>
+      </div>
+      <div class="carousel__slides fade">
+        <div class="carousel__slides--number">4 / 5</div>
+        <img class="carousel__slides--image" src="./images/4-garden.JPG" alt="garden">
+        <div class="carousel__slides--caption">Garden</div>
+      </div>
+      <div class="carousel__slides fade">
+        <div class="carousel__slides--number">5 / 5</div>
+        <img class="carousel__slides--image" src="./images/5-kitchen1.JPG" alt="kitchen">
+        <div class="carousel__slides--caption">Kitchen</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
   </main>
 
   <footer>
