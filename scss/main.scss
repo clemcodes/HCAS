@@ -280,8 +280,19 @@ main {
 footer {  
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  
   color: hsl(220, 30%, 80%);
+
+  & a {
+    text-decoration: none;
+    color: hsl(220, 30%, 80%);
+    margin: 20px auto;
+
+    &:hover {
+      text-decoration: underline;
+      color: hsl(220, 30%, 40%);
+    }
+  }
 
   @media (min-width:$mobile) {
     grid-column: 1 / 2;

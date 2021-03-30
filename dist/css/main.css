@@ -313,8 +313,18 @@ body {
 footer {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   color: #bdc7db;
+}
+
+footer a {
+  text-decoration: none;
+  color: #bdc7db;
+  margin: 20px auto;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #475c85;
 }
 
 @media (min-width: 769px) {
