@@ -1,0 +1,67 @@
+@import './resets';
+@import './variables';
+
+.about {
+  // background: aliceblue;
+  
+
+  &__image {
+    width: 100%;
+    
+
+    @media (min-width:$mobile) {
+      height: 100%;
+    }
+  }
+
+  &__hcas {
+    font-size: 14px;
+    line-height: 1.8rem;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: justify;
+    hyphens: auto;
+
+    & h1 {
+      font-size: 24px;
+    }  
+  }
+
+  &__cottage {
+    font-size: 12px;
+    line-height: 1.8rem;
+    margin: 10px auto;
+    padding: 10px;
+
+    & h1 {
+      font-size: 24px;
+    }
+  }
+}
+
+.amenities {
+  margin-top: 16px;
+
+  &__title {
+    display: flex;
+    align-items: start;
+
+    &--icon {
+      width: 32px;
+    }
+
+    &--text {
+      font-size: 16px;
+    }
+  }
+
+  &__detail {
+    font-size: 14px;
+    color: grey;
+    margin-left: 32px;
+  }
+
+ 
+}
+

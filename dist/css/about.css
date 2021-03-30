@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "PT Sans", sans-serif;
+}
+
+.about__image {
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .about__image {
+    height: 100%;
+  }
+}
+
+.about__hcas {
+  font-size: 14px;
+  line-height: 1.8rem;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.about__hcas h1 {
+  font-size: 24px;
+}
+
+.about__cottage {
+  font-size: 12px;
+  line-height: 1.8rem;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.about__cottage h1 {
+  font-size: 24px;
+}
+
+.amenities {
+  margin-top: 16px;
+}
+
+.amenities__title {
+  display: flex;
+  align-items: start;
+}
+
+.amenities__title--icon {
+  width: 32px;
+}
+
+.amenities__title--text {
+  font-size: 16px;
+}
+
+.amenities__detail {
+  font-size: 14px;
+  color: grey;
+  margin-left: 32px;
+}
+/*# sourceMappingURL=about.css.map */
