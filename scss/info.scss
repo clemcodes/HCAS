@@ -1,7 +1,23 @@
+@import './resets';
+@import './variables';
+
+main {
+  padding: 5%;
+}
+
 .info {
+  max-width: 1000px;
+ 
   & h1 {
-    text-align: center;
     font-size: 24px;
+  }
+
+}
+
+.cards {
+  @media (min-width:400px) {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -15,12 +31,17 @@
   color: #fff;
   margin: 10px auto;
   border-radius: 5px;
-  
- 
-  
+  opacity: 0.9;
+  display: block;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
   &__image {
     object-fit: cover;
-    opacity: 0.4;
+    opacity: 0.55;
     width: 100%;
   }
 
@@ -29,5 +50,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    letter-spacing: .05rem;
   }
 }
