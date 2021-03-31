@@ -8,16 +8,6 @@ html {
   font-family: "PT Sans", sans-serif;
 }
 
-.about__image {
-  width: 100%;
-}
-
-@media (min-width: 769px) {
-  .about__image {
-    height: 100%;
-  }
-}
-
 .about__hcas {
   font-size: 14px;
   line-height: 1.8rem;
@@ -32,6 +22,13 @@ html {
   font-size: 24px;
 }
 
+@media (min-width: 769px) {
+  .about__hcas {
+    max-width: 900px;
+    margin: 0;
+  }
+}
+
 .about__cottage {
   font-size: 12px;
   line-height: 1.8rem;
@@ -41,6 +38,18 @@ html {
 
 .about__cottage h1 {
   font-size: 24px;
+}
+
+@media (min-width: 769px) {
+  .about {
+    padding: 50px;
+    overflow: scroll;
+  }
+}
+
+.donation {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .amenities {
