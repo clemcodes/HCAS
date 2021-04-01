@@ -1,0 +1,28 @@
+@import './resets';
+@import './variables';
+
+main {
+  padding: 5%;
+  overflow: scroll;
+}
+
+
+.reserve {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 20px;
+    margin: 1rem;
+  }
+  
+}
+.booking-info {
+  
+}
