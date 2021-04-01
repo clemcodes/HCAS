@@ -3,6 +3,7 @@
 
 main {
   padding: 5%;
+  overflow: scroll;
 }
 
 .info {
@@ -10,11 +11,26 @@ main {
  
   & h1 {
     font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__disabled {
+    margin-top: 20px;
+    
+    & p {
+      text-align: justify;
+      hyphens: auto;
+      width: 90%;
+      margin: auto;
+      letter-spacing: .35px;
+      line-height: 1.5rem;
+    }
   }
 
 }
 
 .cards {
+
   @media (min-width:400px) {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +39,7 @@ main {
 
 .card {
   height: 120px;
-  width: 300px;
+  width: 100%;
   background: black;
   overflow: hidden;
   position: relative;
@@ -51,5 +67,9 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: .05rem;
+  }
+
+  @media (min-width:400px) {
+    max-width: 300px;
   }
 }
