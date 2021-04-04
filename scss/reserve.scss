@@ -24,7 +24,7 @@ main {
 
   p {
     font-size: map-get($font-size, default);
-    margin: 1rem;
+    margin: 1rem auto;
 
     @media (min-width:$mobile) {
       letter-spacing: 0.05rem;
@@ -40,7 +40,7 @@ main {
   }
 
   &__details {
-    @media (min-width:400px) {
+    @media (min-width:$mobile) {
       max-width: 600px;
       margin-right: 30px;
     }
@@ -53,12 +53,12 @@ main {
       min-height: 300px;
     }
 
-    @media (min-width:400px) {
+    @media (min-width:$mobile) {
       max-width: 300px;
     } 
   }
 
-  @media (min-width:$mobile) {
+  @media (min-width:$laptop) {
     display: flex;
     margin-bottom: 100px;
     
@@ -84,10 +84,6 @@ main {
         }
       } 
       
-    }
-
-    @media (min-width:$mobile) {
-      display: flex;
     }
 
   }

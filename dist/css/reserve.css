@@ -29,10 +29,10 @@ main {
 
 .reserve p {
   font-size: 18px;
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 480px) {
   .reserve p {
     letter-spacing: 0.05rem;
     line-height: 1.5rem;
@@ -43,7 +43,7 @@ main {
   margin-bottom: 30px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .booking-info__details {
     max-width: 600px;
     margin-right: 30px;
@@ -55,20 +55,20 @@ main {
   min-height: 300px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 480px) {
   .booking-info__availability {
     max-width: 300px;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   .booking-info {
     display: flex;
     margin-bottom: 100px;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 480px) {
   .further-info__details > div {
     margin-right: 32px;
   }
@@ -82,11 +82,5 @@ main {
 
 .further-info__details > div > a:hover {
   opacity: .7;
-}
-
-@media (min-width: 769px) {
-  .further-info__details {
-    display: flex;
-  }
 }
 /*# sourceMappingURL=reserve.css.map */

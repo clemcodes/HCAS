@@ -32,7 +32,7 @@ main {
 
 .cards {
 
-  @media (min-width:400px) {
+  @media (min-width:$mobile) {
     display: flex;
     flex-wrap: wrap;
   }
@@ -71,7 +71,11 @@ main {
     font-size: map-get($font-size, small);
   }
 
-  @media (min-width:400px) {
+  @media (min-width:$mobile) {
     max-width: 300px;
+  }
+
+  @media (min-width:$tablet) {
+    max-width: 260px;
   }
 }

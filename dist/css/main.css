@@ -12,7 +12,7 @@ body {
   padding: 16px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   body {
     display: grid;
     grid-template-columns: 400px 1fr;
@@ -32,7 +32,7 @@ body {
   z-index: 97;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .header__logo {
     margin: 20px auto;
     width: 300px;
@@ -75,7 +75,7 @@ body {
   opacity: 0;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .header__menu {
     display: none;
   }
@@ -116,13 +116,13 @@ body {
   color: #b3b3b3;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .mobile-nav a {
     padding: 0;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .mobile-nav {
     padding-top: 50px;
     padding-bottom: 10px;
@@ -151,7 +151,7 @@ body {
   border-radius: 30px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .notification p {
     border-radius: 0;
     margin: 0;
@@ -159,7 +159,7 @@ body {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .notification {
     width: 100%;
     grid-column: 1 / 2;
@@ -168,13 +168,13 @@ body {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .header, .notification, .mobile-nav, footer {
     background: #fff;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   main {
     grid-column: 2 / 3;
     grid-row: 1 / 5;
@@ -205,7 +205,7 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .carousel__slides--number {
     font-size: 18px;
   }
@@ -217,7 +217,7 @@ body {
   background: rgba(0, 0, 0, 0.55);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .carousel__slides--image {
     border-radius: 0;
     width: 100%;
@@ -240,7 +240,7 @@ body {
   width: fit-content;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .carousel__slides--caption {
     right: 0;
     bottom: 0;
@@ -248,14 +248,14 @@ body {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .carousel__slides {
     width: 100%;
     height: 100%;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .carousel {
     width: 100%;
     height: 100%;
@@ -283,7 +283,7 @@ body {
   background: rgba(0, 0, 0, 0.8);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   .prev, .next {
     font-size: 18px;
     padding: 30px;
@@ -327,7 +327,7 @@ footer a:hover {
   color: #475c85;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 801px) {
   footer {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
