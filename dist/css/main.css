@@ -109,11 +109,11 @@ body {
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-  color: #222;
+  color: #0a0a0a;
 }
 
 .mobile-nav a:hover {
-  color: #aaa;
+  color: #b3b3b3;
 }
 
 @media (min-width: 769px) {

@@ -78,7 +78,7 @@ main {
       & > a {
         margin-right: 16px;
         text-decoration: none;
-        color: #000;
+        color: $secondary-color;
 
         &:hover {
           opacity: .7;

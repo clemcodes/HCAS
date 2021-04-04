@@ -95,10 +95,10 @@ body {
     text-align: center;
     padding: 14px 14px;
     text-decoration: none;
-    color:#222;
+    color:$primary-color;
 
     &:hover {
-      color: #aaa;
+      color: hsl(0, 0%, 70%);
     }
 
     @media (min-width:$mobile) {
