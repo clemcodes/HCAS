@@ -28,15 +28,14 @@ main {
 }
 
 .reserve p {
-  font-size: 16px;
+  font-size: 18px;
   margin: 1rem;
 }
 
 @media (min-width: 769px) {
   .reserve p {
-    font-size: 20px;
     letter-spacing: 0.05rem;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -83,12 +82,6 @@ main {
 
 .further-info__details > div > a:hover {
   opacity: .7;
-}
-
-@media (min-width: 769px) {
-  .further-info__details > div {
-    font-size: 18px;
-  }
 }
 
 @media (min-width: 769px) {

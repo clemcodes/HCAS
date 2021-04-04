@@ -1,10 +1,16 @@
 $primary-color: hsl(0, 0%, 4%);
 $secondary-color:hsl(207, 3%, 34%);
 
+$font-size: (
+	"small": 16px,
+	"default": 18px,
+	"large": 24px,
+);
+
 $font-weights: (
 	"regular": 400,
 	"medium": 500,
-	"bold":700
+	"bold":700,
 );
 
 $mobile: 769px;

@@ -10,7 +10,7 @@ main {
   max-width: 1000px;
  
   & h1 {
-    font-size: 24px;
+    font-size: map-get($font-size, large);
     margin-bottom: 10px;
   }
 
@@ -22,8 +22,9 @@ main {
       hyphens: auto;
       width: 90%;
       margin: auto;
-      letter-spacing: .35px;
+      letter-spacing: .05rem;
       line-height: 1.5rem;
+      font-size:  map-get($font-size, default);
     }
   }
 
@@ -67,6 +68,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: .05rem;
+    font-size: map-get($font-size, small);
   }
 
   @media (min-width:400px) {

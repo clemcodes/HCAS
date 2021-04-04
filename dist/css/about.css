@@ -8,9 +8,12 @@ html {
   font-family: "PT Sans", sans-serif;
 }
 
+.about {
+  line-height: 1.5rem;
+}
+
 .about__hcas {
-  font-size: 14px;
-  line-height: 1.8rem;
+  font-size: 18px;
   width: 100%;
   margin: 10px auto;
   padding: 10px;
@@ -30,8 +33,7 @@ html {
 }
 
 .about__cottage {
-  font-size: 12px;
-  line-height: 1.8rem;
+  font-size: 18px;
   margin: 10px auto;
   padding: 10px;
 }
@@ -66,11 +68,11 @@ html {
 }
 
 .amenities__title--text {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .amenities__detail {
-  font-size: 14px;
+  font-size: 16px;
   color: #545759;
   margin-left: 32px;
 }
