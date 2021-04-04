@@ -33,7 +33,7 @@
     }
   }
   @media (min-width:$mobile) {
-    padding: 50px;
+    padding: 15px;
     overflow: scroll;
   }
 }
@@ -61,7 +61,7 @@
 
   &__detail {
     font-size: 14px;
-    color: grey;
+    color: hsla(207, 3%, 34%);
     margin-left: 32px;
   }
  

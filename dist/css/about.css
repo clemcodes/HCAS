@@ -42,7 +42,7 @@ html {
 
 @media (min-width: 769px) {
   .about {
-    padding: 50px;
+    padding: 15px;
     overflow: scroll;
   }
 }
@@ -71,7 +71,7 @@ html {
 
 .amenities__detail {
   font-size: 14px;
-  color: grey;
+  color: #545759;
   margin-left: 32px;
 }
 /*# sourceMappingURL=about.css.map */
