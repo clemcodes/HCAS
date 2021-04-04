@@ -1,6 +1,10 @@
 @import './resets';
 @import './variables';
 
+main {
+  padding: 3%;
+}
+
 .about {
   
   line-height: 1.5rem;
@@ -31,10 +35,6 @@
     & h1 {
       font-size:  map-get($font-size, large);
     }
-  }
-  @media (min-width:$mobile) {
-    padding: 15px;
-    overflow: scroll;
   }
 }
 

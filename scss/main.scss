@@ -157,6 +157,8 @@ body {
 }
 
 main {
+  overflow: scroll;
+
   @media (min-width:$tablet) {
     grid-column: 2 / 3;
     grid-row: 1 / 5;
@@ -281,17 +283,15 @@ main {
 footer {  
   display: flex;
   justify-content: center;
-  
-  color: hsl(220, 30%, 80%);
 
   & a {
     text-decoration: none;
-    color: hsl(220, 80%, 20%);
+    color: $secondary-color;
     margin: 20px auto;
 
     &:hover {
       text-decoration: underline;
-      color: hsl(220, 30%, 40%);
+      color:$primary-color;
     }
   }
 

@@ -8,6 +8,10 @@ html {
   font-family: "PT Sans", sans-serif;
 }
 
+main {
+  padding: 3%;
+}
+
 .about {
   line-height: 1.5rem;
 }
@@ -40,13 +44,6 @@ html {
 
 .about__cottage h1 {
   font-size: 24px;
-}
-
-@media (min-width: 480px) {
-  .about {
-    padding: 15px;
-    overflow: scroll;
-  }
 }
 
 .donation {
