@@ -44,7 +44,6 @@ $(document).ready(function(){
 // Back to top 
 $(document).ready(function(){
   $(window).on('scroll', function(){
-    console.log(window.pageYOffset);
     if(window.pageYOffset > 600) {
       $('.button-to-top').css('display','block');
     } else {
