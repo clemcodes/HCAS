@@ -302,3 +302,27 @@ footer {
     z-index: 99;
   }
 }
+
+.back-to-top {
+  display: none;
+}
+
+.button-to-top {
+  position: fixed;
+  right:20px;
+  bottom: 56px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: $primary-color;
+  cursor: pointer;
+  outline: none;
+  display: none;
+  
+}
+
+.button-to-top div {
+  transform: rotate(-20deg);
+  font-size: 1.1rem;
+  color: #fff;
+}

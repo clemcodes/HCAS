@@ -40,3 +40,24 @@ $(document).ready(function(){
   }, 4000);
 
 });
+
+// Back to top 
+$(document).ready(function(){
+  $(window).on('scroll', function(){
+    console.log(window.pageYOffset);
+    if(window.pageYOffset > 600) {
+      $('.button-to-top').css('display','block');
+    } else {
+      $('.button-to-top').css('display','none');
+    }
+  });
+
+  $('.button-to-top').on('click', function(){
+    window.scrollTo ({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  });
+});
+
