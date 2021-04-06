@@ -95,4 +95,8 @@ main {
     display: flex;
   }
 }
+
+.further-info__pictures > a {
+  color: #545759;
+}
 /*# sourceMappingURL=reserve.css.map */

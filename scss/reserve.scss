@@ -86,7 +86,6 @@ main {
           display: inline-block;
           margin-right: 16px;
         }
-
       } 
       
     }
@@ -94,7 +93,11 @@ main {
     @media (min-width:$laptop) {
       display: flex;
     }
-
   }
   
+  &__pictures {
+    & > a {
+      color: $secondary-color;
+    }
+  }
 }
