@@ -15,10 +15,16 @@ body {
 @media (min-width: 801px) {
   body {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 380px 1fr;
     grid-template-rows: 120px auto 1fr auto;
     padding: 0;
     height: 100vh;
+  }
+}
+
+@media (min-width: 1288px) {
+  body {
+    grid-template-columns: 400px 1fr;
   }
 }
 

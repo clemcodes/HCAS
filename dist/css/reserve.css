@@ -51,7 +51,7 @@ main {
 
 @media (min-width: 1288px) {
   .booking-info__details {
-    max-width: 600px;
+    max-width: 480px;
     margin-right: 30px;
   }
 }
@@ -64,6 +64,13 @@ main {
 @media (min-width: 801px) {
   .booking-info__availability {
     max-width: 300px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1288px) {
+  .booking-info__availability {
+    margin-left: 30px;
   }
 }
 
