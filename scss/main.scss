@@ -19,16 +19,24 @@ body {
   justify-content: space-between;
 
   &__logo {
-    width: 10rem;
-    z-index: 97;
+    
+    & img {
+      width: 10rem;
+      z-index: 97;
+
+      @media (min-width:$tablet) {
+        width: 305px;
+        height: 111px;
+      }
+      
+    }
 
     @media (min-width:$tablet) {
       margin:20px auto;
-      width: 305px;
-      height: 111px;
       grid-column: 1 / 2;
       grid-row: 1 / 2;
     }
+    
   }
 
   &__menu {
@@ -210,10 +218,10 @@ main {
       padding: 8px 12px;
       position: absolute;
       right: 0;
-      bottom: 8px;
+      bottom: 10px;
       width: 100%;
       text-align: center;
-      box-shadow: 0 0 50px hsla(0, 0%, 0%, .6);
+      box-shadow: 0 0 10px hsla(0, 0%, 0%, .6);
       background: hsla(0, 0%, 0%, .7);
       width: fit-content;
       
@@ -318,7 +326,6 @@ footer {
   cursor: pointer;
   outline: none;
   display: none;
-  
 }
 
 .button-to-top div {

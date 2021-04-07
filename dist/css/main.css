@@ -27,16 +27,21 @@ body {
   justify-content: space-between;
 }
 
-.header__logo {
+.header__logo img {
   width: 10rem;
   z-index: 97;
 }
 
 @media (min-width: 801px) {
-  .header__logo {
-    margin: 20px auto;
+  .header__logo img {
     width: 305px;
     height: 111px;
+  }
+}
+
+@media (min-width: 801px) {
+  .header__logo {
+    margin: 20px auto;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
@@ -236,10 +241,10 @@ main {
   padding: 8px 12px;
   position: absolute;
   right: 0;
-  bottom: 8px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   background: rgba(0, 0, 0, 0.7);
   width: fit-content;
 }

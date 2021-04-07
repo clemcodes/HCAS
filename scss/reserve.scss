@@ -66,6 +66,10 @@ main {
 
 .further-info {
 
+  & h1 {
+    margin-bottom: 15px;
+  }
+
   &__details {
 
     & > div {

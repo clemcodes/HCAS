@@ -67,6 +67,10 @@ main {
   }
 }
 
+.further-info h1 {
+  margin-bottom: 15px;
+}
+
 @media (min-width: 1025px) {
   .further-info__details > div {
     margin-right: 32px;
