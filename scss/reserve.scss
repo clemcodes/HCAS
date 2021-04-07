@@ -2,7 +2,7 @@
 @import './variables';
 
 main {
-  padding: 8% 2%;
+  padding: 5% 2%;
 }
 
 
@@ -22,7 +22,7 @@ main {
   }
 
   p {
-    font-size: map-get($font-size, default);
+    font-size: map-get($font-size, small);
     margin: 1rem auto;
 
     @media (min-width:$tablet) {
@@ -40,6 +40,11 @@ main {
 
   &__details {
     @media (min-width:$tablet) {
+      max-width: 300px;
+      margin-right: 30px;
+    }
+
+    @media (min-width:$desktop) {
       max-width: 600px;
       margin-right: 30px;
     }
@@ -57,7 +62,7 @@ main {
     } 
   }
 
-  @media (min-width:$desktop) {
+  @media (min-width:$tablet) {
     display: flex;
     margin-bottom: 100px;
     
