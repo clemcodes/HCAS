@@ -134,7 +134,7 @@ body {
 
 @media (min-width: 801px) {
   .mobile-nav {
-    padding-top: 50px;
+    padding-top: 35px;
     padding-bottom: 10px;
     position: static;
     background: transparent;
@@ -171,7 +171,7 @@ body {
 
 @media (min-width: 801px) {
   .notification {
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
