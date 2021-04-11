@@ -29,7 +29,7 @@ body {
       z-index: 97;
 
       @media (min-width:$tablet) {
-        width: 305px;
+        width: 16rem;
       }
       
     }
@@ -146,10 +146,16 @@ body {
     margin: 30px auto;
     border-radius: 30px;
 
+  & a {
+    color: #fff;
+    display: block;
+    text-align: right;
+  }
+
     @media (min-width:$tablet) {
       border-radius: 0;
       margin: 0;
-      font-size: map-get($font-size, default);
+      font-size: map-get($font-size, small);
     }
   }
   @media (min-width:$tablet) {
