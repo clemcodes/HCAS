@@ -163,8 +163,6 @@ body {
 
 .notification p a {
   color: #fff;
-  display: block;
-  text-align: right;
 }
 
 @media (min-width: 801px) {

@@ -137,6 +137,7 @@ body {
 }
 
 .notification {
+
   & p {
     width: 100%;
     height: fit-content;
@@ -148,8 +149,6 @@ body {
 
   & a {
     color: #fff;
-    display: block;
-    text-align: right;
   }
 
     @media (min-width:$tablet) {
