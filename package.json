@@ -1,0 +1,25 @@
+{
+  "name": "hcas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel *.html",
+    "build": "parcel *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clemcodes/HCAS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clemcodes/HCAS/issues"
+  },
+  "homepage": "https://github.com/clemcodes/HCAS#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.8"
+  }
+}
