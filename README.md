@@ -5,13 +5,15 @@
 
 A website for a local charity that provides a holiday cottage to disadvantaged families.
 
-![demo with lighthouse report](/dist/images/HCAS%20lighthouse%20report.gif)
+![demo with lighthouse report](/images/HCAS%20lighthouse%20report.gif)
 
 ## Features
 
 - Mobile first design
 - Built with accessibility in mind (e.g. accessible hamburger menu according to WCAG)
 - Improved all metrics in lighthouse report to 100%, including accessibility, SEO, performance, and best practices
+- Bundled with Parcel.js
+- Deployed on AWS Amplify
 
 ## Tech Stack
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="Sass" src="https://img.shields.io/badge/Sass%20-%23cd6799.svg?&style=for-the-badge&logo=Sass&logoColor=white"/> <img alt="JQuery" src="https://img.shields.io/badge/jQuery%20-%231572B6.svg?&style=for-the-badge&logo=jquery&logoColor=white"/>  
