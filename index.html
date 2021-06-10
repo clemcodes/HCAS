@@ -1,73 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hull Chirldren Adventure Society Homepage. HCAS is a registered charity in the UK that provides space to disadvantaged families for holiday."> 
-  <meta name="web_author" content="clemcodes">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="./scss/main.scss">
-  <title>HCAS - UK</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hull Chirldren Adventure Society Homepage. HCAS is a registered charity in the UK that provides space to disadvantaged families for holiday."
+    />
+    <meta name="web_author" content="clemcodes" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./scss/main.scss" />
+    <title>HCAS - UK</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="./index.html"
+        ><img src="./images/HCAS_logo.jpg" alt="HCAS logo"
+      /></a>
+      <button class="header__menu" aria-expanded="false" aria-label="Menu">
+        <div class="bar" aria-hidden="true"></div>
+      </button>
+    </header>
 
-  <header class="header">
-    <a class="header__logo" href="./index.html"><img src="./images/HCAS_logo.jpg" alt="HCAS logo"></a>
-    <button class="header__menu" 
-    aria-expanded="false"
-    aria-label="Menu">  
-    <div class="bar" aria-hidden="true"></div>
-    </button>
-  </header>
+    <section class="notification">
+      <p>
+        Good News - we have decided to reopen the cottage from Sunday 4th July.
+        It is fully booked through to November - for more information please
+        read <a href="./files/Booking Information.pdf" target="_blank">this</a>.
+        But we will extend the season into November if there is demand.
+        <br /><br />
+        The Trustees<br />
+      </p>
+    </section>
 
-  <section class="notification">
-    <p>Pandemic Update: <br><br> We have decided to delay the opening until most of the adult population has been vaccinated and there is absolute confidence that we are not heading into another lockdown <a href="./files/Details of Covid Changes_2021Season.pdf" target="_blank">(Click here to learn more about our updates).</a> In the meantime, stay safe and well. <br><br> The Trustees<br></p>
-  </section>
-  
-  <nav class="mobile-nav">
-    <a href="./index.html">Home</a>
-    <a href="./html/about.html">About <i class="fas fa-angle-right"></i></a>
-    <a href="./html/info.html">Info <i class="fas fa-angle-right"></i></a>
-    <a href="./html/reserve.html">Reserve <i class="fas fa-angle-right"></i></a>
-  </nav>
+    <nav class="mobile-nav">
+      <a href="./index.html">Home</a>
+      <a href="./html/about.html">About <i class="fas fa-angle-right"></i></a>
+      <a href="./html/info.html">Info <i class="fas fa-angle-right"></i></a>
+      <a href="./html/reserve.html"
+        >Reserve <i class="fas fa-angle-right"></i
+      ></a>
+    </nav>
 
-  <main>
-    <div class="carousel">
-      <div class="carousel__slides fade">
-        <div class="carousel__slides--number">1 / 5</div>
-        <img class="carousel__slides--image"src="./images/1-livingroom.JPG" alt="living room">
-        <div class="carousel__slides--caption">Living Room</div>
+    <main>
+      <div class="carousel">
+        <div class="carousel__slides fade">
+          <div class="carousel__slides--number">1 / 5</div>
+          <img
+            class="carousel__slides--image"
+            src="./images/1-livingroom.JPG"
+            alt="living room"
+          />
+          <div class="carousel__slides--caption">Living Room</div>
+        </div>
+        <div class="carousel__slides fade">
+          <div class="carousel__slides--number">2 / 5</div>
+          <img
+            class="carousel__slides--image"
+            src="./images/2-backbedroom.JPG"
+            alt="back bedroom"
+          />
+          <div class="carousel__slides--caption">Back Bedroom</div>
+        </div>
+        <div class="carousel__slides fade">
+          <div class="carousel__slides--number">3 / 5</div>
+          <img
+            class="carousel__slides--image"
+            src="./images/3-frontbedroom.JPG"
+            alt="front bedroom"
+          />
+          <div class="carousel__slides--caption">Front Bedroom</div>
+        </div>
+        <div class="carousel__slides fade">
+          <div class="carousel__slides--number">4 / 5</div>
+          <img
+            class="carousel__slides--image"
+            src="./images/4-garden.JPG"
+            alt="garden"
+          />
+          <div class="carousel__slides--caption">Garden</div>
+        </div>
+        <div class="carousel__slides fade">
+          <div class="carousel__slides--number">5 / 5</div>
+          <img
+            class="carousel__slides--image"
+            src="./images/5-kitchen1.JPG"
+            alt="kitchen"
+          />
+          <div class="carousel__slides--caption">Kitchen</div>
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
       </div>
-      <div class="carousel__slides fade">
-        <div class="carousel__slides--number">2 / 5</div>
-        <img class="carousel__slides--image" src="./images/2-backbedroom.JPG" alt="back bedroom">
-        <div class="carousel__slides--caption">Back Bedroom</div>
-      </div>
-      <div class="carousel__slides fade">
-        <div class="carousel__slides--number">3 / 5</div>
-        <img class="carousel__slides--image" src="./images/3-frontbedroom.JPG" alt="front bedroom">
-        <div class="carousel__slides--caption">Front Bedroom</div>
-      </div>
-      <div class="carousel__slides fade">
-        <div class="carousel__slides--number">4 / 5</div>
-        <img class="carousel__slides--image" src="./images/4-garden.JPG" alt="garden">
-        <div class="carousel__slides--caption">Garden</div>
-      </div>
-      <div class="carousel__slides fade">
-        <div class="carousel__slides--number">5 / 5</div>
-        <img class="carousel__slides--image" src="./images/5-kitchen1.JPG" alt="kitchen">
-        <div class="carousel__slides--caption">Kitchen</div>
-      </div>
-      <a class="prev">&#10094;</a>
-      <a class="next">&#10095;</a>
-    </div>
-  </main>
+    </main>
 
-  <footer> 
-    <a href="https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=511702&subid=0" target="_blank" rel="noopener">HCAS - Registered Charity NO. 511702</a>
-  </footer>
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js"></script>
-</body>
+    <footer>
+      <a
+        href="https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=511702&subid=0"
+        target="_blank"
+        rel="noopener"
+        >HCAS - Registered Charity NO. 511702</a
+      >
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

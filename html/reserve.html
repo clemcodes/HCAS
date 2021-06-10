@@ -1,93 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="HCAS's booking details, booking availability and files on further information for people living in Hull and members of Headway groups">
-  <meta name="web_author" content="clemcodes"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="../scss/main.scss">
-  <link rel="stylesheet" href="../scss/reserve.scss">
-  <title>Reserve - HCAS</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="HCAS's booking details, booking availability and files on further information for people living in Hull and members of Headway groups"
+    />
+    <meta name="web_author" content="clemcodes" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../scss/main.scss" />
+    <link rel="stylesheet" href="../scss/reserve.scss" />
+    <title>Reserve - HCAS</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logo" href="../index.html"
+        ><img src="../images/HCAS_logo.jpg" alt="HCAS logo"
+      /></a>
+      <button class="header__menu" aria-expanded="false" aria-label="Menu">
+        <div class="bar" aria-hidden="true"></div>
+      </button>
+    </header>
 
-  <header class="header">
-    <a class="header__logo" href="../index.html"><img src="../images/HCAS_logo.jpg" alt="HCAS logo"></a>
-    <button class="header__menu" 
-    aria-expanded="false"
-    aria-label="Menu">   
-    <div class="bar" aria-hidden="true"></div>
+    <section class="notification">
+      <p>
+        Good News - we have decided to reopen the cottage from Sunday 4th July.
+        It is fully booked through to November - for more information please
+        read
+        <a href="../files/Booking Information.pdf" target="_blank">this</a>. But
+        we will extend the season into November if there is demand. <br /><br />
+        The Trustees<br />
+      </p>
+    </section>
+
+    <nav class="mobile-nav">
+      <a href="../index.html">Home <i class="fas fa-angle-right"></i></a>
+      <a href="./about.html">About <i class="fas fa-angle-right"></i></a>
+      <a href="./info.html">Info <i class="fas fa-angle-right"></i></a>
+      <a href="./reserve.html">Reserve</a>
+    </nav>
+
+    <main>
+      <div class="reserve">
+        <div class="booking-info">
+          <div class="booking-info__details">
+            <h1><i class="fas fa-file-signature"></i> Booking Details</h1>
+            <p>
+              <i class="far fa-clock"></i>
+              Saturday (5pm)-Saturday (10am), 7 days
+            </p>
+            <p>
+              <i class="far fa-file-alt"></i>
+              Requires proof of eligibility (benefits / similar) signed by
+              social worker / similar / professional. For Headway, your group
+              organiser or chair
+            </p>
+            <p>
+              <i class="fas fa-pound-sign"></i>
+              We charge just £50 (1-4 people) and £60 (5-8 people) per one-week
+              booking
+            </p>
+            <p><i class="far fa-user"></i> Maximum 8 people per booking</p>
+            <p><i class="fas fa-paw"></i> Sorry no dogs</p>
+          </div>
+          <div class="booking-info__availability">
+            <h1><i class="far fa-calendar-alt"></i> Availability</h1>
+            <iframe
+              title="availability calendar"
+              src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=MDBnNXNpc3VjNXY5dW4za3FkaDFiaDlwcDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+          </div>
+        </div>
+        <div class="further-info">
+          <h1><i class="fas fa-info-circle"></i> Further Information</h1>
+          <div class="further-info__details">
+            <div class="further-info__details--hull">
+              <h2>For people living in Hull</h2>
+              <a href="../files/booking_form_hull.pdf" target="_blank"
+                >Booking Form - Hull</a
+              >
+              <a href="../files/cottage_details_hull.pdf" target="_blank"
+                >Cottage Detail - Hull</a
+              >
+            </div>
+            <div class="further-info__details--headway">
+              <h2>For members of Headway groups</h2>
+              <a href="../files/booking_form_headway.pdf" target="_blank"
+                >Booking Form - Headway</a
+              >
+              <a href="../files/cottage_details_headway.pdf" target="_blank"
+                >Cottage Detail - Headway</a
+              >
+            </div>
+          </div>
+          <div class="further-info__pictures">
+            <h2>More Pictures</h2>
+            <a href="../files/cottage_pictures.pdf" target="_blank"
+              >Cottage Pictures</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a
+        href="https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=511702&subid=0"
+        target="_blank"
+        rel="noopener"
+        >HCAS - Registered Charity NO. 511702</a
+      >
+    </footer>
+
+    <button class="button-to-top">
+      <div>up</div>
     </button>
-  </header>
 
-  <section class="notification">
-    <p>Pandemic Update: <br><br> We have decided to delay the opening until most of the adult population has been vaccinated and there is absolute confidence that we are not heading into another lockdown <a href="../files/Details of Covid Changes_2021Season.pdf" target="_blank">(Click here to learn more about our updates).</a> In the meantime, stay safe and well. <br><br> The Trustees<br></p>
-  </section>
-  
-  <nav class="mobile-nav">
-    <a href="../index.html">Home <i class="fas fa-angle-right"></i></a>
-    <a href="./about.html">About <i class="fas fa-angle-right"></i></a>
-    <a href="./info.html">Info <i class="fas fa-angle-right"></i></a>
-    <a href="./reserve.html">Reserve</a>
-  </nav>
-
-  <main>
-    <div class="reserve">
-      <div class="booking-info">
-        <div class="booking-info__details">
-          <h1><i class="fas fa-file-signature"></i> Booking Details</h1>
-          <p><i class="far fa-clock"></i> 
-            Saturday (5pm)-Saturday (10am), 7 days
-          </p>
-          <p><i class="far fa-file-alt"></i> 
-            Requires proof of eligibility (benefits / similar) signed by social worker / similar / professional. 
-            For Headway, your group organiser or chair
-          </p>
-          <p><i class="fas fa-pound-sign"></i> 
-            We charge just £50 (1-4 people) and £60 (5-8 people) per one-week booking
-          </p>
-          <p><i class="far fa-user"></i> Maximum 8 people per booking</p>
-          <p><i class="fas fa-paw"></i> Sorry no dogs</p>
-        </div>
-        <div class="booking-info__availability">
-          <h1><i class="far fa-calendar-alt"></i> Availability</h1>
-          <iframe title = "availability calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FLondon&amp;src=MDBnNXNpc3VjNXY5dW4za3FkaDFiaDlwcDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23616161&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0" frameborder="0" scrolling="no"></iframe>
-          
-          
-        </div>
-      </div>
-      <div class="further-info">
-        <h1><i class="fas fa-info-circle"></i> Further Information</h1>
-        <div class="further-info__details">
-          <div class="further-info__details--hull">
-            <h2>For people living in Hull</h2>
-            <a href="../files/booking_form_hull.pdf" target="_blank">Booking Form - Hull</a>
-            <a href="../files/cottage_details_hull.pdf" target="_blank">Cottage Detail - Hull</a>
-          </div>
-          <div class="further-info__details--headway">
-            <h2>For members of Headway groups</h2>
-            <a href="../files/booking_form_headway.pdf" target="_blank">Booking Form - Headway</a>
-            <a href="../files/cottage_details_headway.pdf" target="_blank">Cottage Detail - Headway</a>
-          </div>
-        </div>
-        <div class="further-info__pictures">
-          <h2>More Pictures</h2>
-          <a href="../files/cottage_pictures.pdf" target="_blank">Cottage Pictures</a>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer> 
-    <a href="https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=511702&subid=0" target="_blank" rel="noopener">HCAS - Registered Charity NO. 511702</a>
-  </footer>
-
-  <button class="button-to-top">
-    <div>up</div>
-  </button>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../script.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../script.js"></script>
+  </body>
 </html>
